@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* common start here */
+  body{
+    margin: 0;
+    font-family:"playfair display",serif;
+    font-size:16px ;
+    font-weight:400 ;
+    color: #626262;
+
+  }
+/* common end here */
+/* header start */
+    header{
+        padding: 30px 0;
+        
+    }
+    .container{
+        margin: 0 auto;
+        overflow: hidden;
+        width: 90%;
+       
+    }
+    .logo{
+        margin-top: 10px;
+        float: left;
+        width: 12%;
+    }
+    .logo a img{
+        width: 100%;
+    }
+    .menu{
+        float:right;  
+        width: 65%;
+    }
+    .menu ul{
+        float: right;
+        list-style: none;
+    }
+    .menu ul li{
+        float: left;
+    }
+    .menu ul li a{
+        margin: 0 55px;
+        color: #626262;
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-bottom:1px solid transparent;
+        transition: .33s;
+       /* hover korle jate noracora na koretai transprant used korlam */
+    }
+    .menu ul li:last-child a{
+        margin-right: 0px;
+    }
+    .menu ul li a:hover{
+        border-bottom:1px solid #000000;
+
+     /* best color change */
+     color: #000000;
+    }
+/* header end */
+/* banner section start here */
+  .banner{ }
+  .b_img{}
+  .b_img img{width: 100%;}
+/* banner section end here */
+
+/* getaway start  */
+   .getaway{
+    padding:100px 0;
+   }
+   .container2{
+    width: 80%;
+    margin: 0 auto;
+
+    }
+   .g_content{}
+   .light{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight:300;
+    text-transform: uppercase;
+   }
+   .title{
+    margin: 20px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+   }
+   .text{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 2px;
+    line-height: 24px;
+   }
+   .g_link{
+    margin-top: 40px;
+    color: #626262;
+    text-decoration: none;
+   }
+
+/* getaway end */
+/* blog section start */
+.blog{
+    padding: 0 0 100px;
+}
+.bl_content{
+    overflow: hidden;
+}
+.bl_item{
+    float: left;
+    width: 46%;
+    box-sizing: border-box;
+}
+.bl_img{
+    margin-bottom: 20px;
+}
+.bl_img img{
+    width: 100%;
+}
+.bl_item:nth-child(even){
+    /* margin-left: 91px; */
+    margin-left: 8%;
+}
+
+
+/* blog section end */
+
+
+
+
+
+
+
+
+
